@@ -16,71 +16,24 @@ body {
   margin: 0 auto;
 }
 
-.money-icon {
-  color: green;
+.icon {
   animation: none;
-  text-shadow: none;
+  filter: none;
+  color: gold;
 }
-
-.rgb-text {
-  animation: rgb 6s linear infinite;
-}
-
-@keyframes rgb {
-  0% {
-    color: #ff4d4d;
-  }
-  20% {
-    color: #ffaa00;
-  }
-  40% {
-    color: #00ff88;
-  }
-  60% {
-    color: #00ccff;
-  }
-  80% {
-    color: #aa66ff;
-  }
-  100% {
-    color: #ff4d4d;
-  }
+.icon-money {
+  animation: none;
+  filter: none;
+  color: green;
 }
 
 h1 {
   text-align: center;
   margin-bottom: 30px;
-  font-family: "Khmer OS Moul", sans-serif;
+  font-family: "Khmer OS Koulen", sans-serif;
   font-size: 2.3rem;
   font-weight: normal;
-
-  animation: rgb 6s linear infinite;
-
-  /* Softer shadow */
-  text-shadow:
-    0 0 5px currentColor,
-    0 0 10px currentColor;
-}
-
-@keyframes rgb {
-  0% {
-    color: #ff4d4d;
-  }
-  20% {
-    color: #ffaa00;
-  }
-  40% {
-    color: #00ff88;
-  }
-  60% {
-    color: #00ccff;
-  }
-  80% {
-    color: #aa66ff;
-  }
-  100% {
-    color: #ff4d4d;
-  }
+  color: white;
 }
 
 /* ===== Cards ===== */
@@ -95,9 +48,10 @@ h1 {
 .card h2 {
   color: #333;
   margin-bottom: 20px;
-  font-size: 1.3rem;
+  font-size: 2rem;
   border-bottom: 2px solid #667eea;
   padding-bottom: 10px;
+  font-family: "Khmer OS Battambang", sans-serif;
 }
 
 .card h2.salary {
@@ -118,7 +72,7 @@ h1 {
 .form-group {
   flex: 1;
   min-width: 500px;
-  font-family: "Khmer OS Siemreap", sans-serif;
+  font-family: "Khmer OS Content", sans-serif;
 }
 
 label {
@@ -126,7 +80,7 @@ label {
   margin-bottom: 6px;
   color: black;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 35px;
 }
 
 input,
@@ -137,6 +91,7 @@ select {
   border-radius: 10px;
   font-size: 1rem;
   transition: border-color 0.3s;
+  font-family: "Khmer OS Battambang";
 }
 
 input:focus,

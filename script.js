@@ -53,7 +53,7 @@ function getPeriodLabel(s) {
 function updateExpensePeriodOptions() {
   const select = document.getElementById("expensePeriod");
   const currentVal = select.value;
-  select.innerHTML = '<option value="">-- Choose a month --</option>';
+  select.innerHTML = '<option value="">-- ជ្រើសរើសខែ --</option>';
 
   const sorted = [...salaries].sort((a, b) => {
     if (a.year !== b.year) return b.year - a.year;

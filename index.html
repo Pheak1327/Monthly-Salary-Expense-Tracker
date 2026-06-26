@@ -10,12 +10,15 @@
     <div class="container">
       <h1>
         <span class="icon">💰</span>
-        <span class="rgb-text">ប្រព័ន្ធគ្រប់គ្រង​ ប្រាក់ខែ និង ចំណាយ</span>
+        <span class="title">ប្រព័ន្ធគ្រប់គ្រង​ ប្រាក់ខែ និង ចំណាយ</span>
       </h1>
 
       <!-- ADD SALARY -->
       <div class="card">
-        <h2 class="salary">💵 ដាក់ប្រាក់ខែ</h2>
+        <h2>
+          <span class="icon-money">💵</span>
+          <span class="salary"> ដាក់ប្រាក់ខែ </span>
+        </h2>
         <div class="form-row">
           <div class="form-group">
             <label for="salaryMonth">ខែ</label>
@@ -69,7 +72,7 @@
             <input
               type="text"
               id="salaryNotes"
-              placeholder="e.g. Bonus included"
+              placeholder="e.g. ប្រាក់បន្ថែមប្រចាំខែ"
             />
           </div>
         </div>
@@ -79,19 +82,19 @@
       <!-- ADD EXPENSE -->
       <div class="card">
         <h2>
-          <span class="icon">💸</span>
+          <span class="icon-money">💸</span>
           <span class="expense"> បន្ថែមការចំណាយ </span>
         </h2>
 
         <div class="form-row">
           <div class="form-group">
-            <label for="expensePeriod">ជ្រើសរើសខែប្រាក់</label>
+            <label for="expensePeriod">ជ្រើសរើសខែដែលចង់ដាក់ប្រាក់បន្ថែម</label>
             <select id="expensePeriod">
               <option value="">-- ជ្រើសរើសខែ --</option>
             </select>
           </div>
           <div class="form-group">
-            <label for="expenseCategory">Category</label>
+            <label for="expenseCategory">ប្រភេទ</label>
             <select id="expenseCategory">
               <option value="Food">🍔 Food</option>
               <option value="Transport">🚗 Transport</option>
@@ -106,7 +109,7 @@
             </select>
           </div>
           <div class="form-group">
-            <label for="expenseAmount">Amount</label>
+            <label for="expenseAmount">ចំនួន</label>
             <input
               type="number"
               id="expenseAmount"
@@ -118,15 +121,15 @@
         </div>
         <div class="form-row">
           <div class="form-group">
-            <label for="expenseDate">Date</label>
+            <label for="expenseDate">កាលបរិច្ឆេទ</label>
             <input type="date" id="expenseDate" />
           </div>
           <div class="form-group">
-            <label for="expenseNotes">Notes (Optional)</label>
+            <label for="expenseNotes">កំណត់ចំណាំ (Optional)</label>
             <input
               type="text"
               id="expenseNotes"
-              placeholder="e.g. Grocery shopping"
+              placeholder="e.g. ការដើរទិញឥវ៉ាន់"
             />
           </div>
         </div>
