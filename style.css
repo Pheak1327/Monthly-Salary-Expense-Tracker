@@ -117,15 +117,16 @@ h1 {
 
 .form-group {
   flex: 1;
-  min-width: 200px;
+  min-width: 500px;
+  font-family: "Khmer OS Siemreap", sans-serif;
 }
 
 label {
   display: block;
   margin-bottom: 6px;
-  color: #555;
+  color: black;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
 }
 
 input,
